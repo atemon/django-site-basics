@@ -1,8 +1,8 @@
 from django.conf.urls import url, include
 from django.views.generic import TemplateView, RedirectView
 from robots_txt.views import RobotsTextView
-from views import page_404, page_500
-import conf
+from .views import page_404, page_500
+from . import conf
 
 urlpatterns = [
     url(r'', include('favicon.urls')),
