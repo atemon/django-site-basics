@@ -25,7 +25,7 @@ setup(
     classifiers=[
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Intended Audience :: Developers',
-        'Programming Language :: Python',      
+        'Programming Language :: Python',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Framework :: Django',
@@ -36,7 +36,7 @@ setup(
         "Django>=1.4",
         "django-favicon",
         "django-robots-txt",
-        "django-sitemetrics==0.2",
+        "git+https://github.com/atemon/django-sitemetrics.git",
     ],
     long_description=read_file('README.rst'),
     test_suite="runtests.runtests",
