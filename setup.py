@@ -36,7 +36,7 @@ setup(
         "Django>=1.4",
         "django-favicon",
         "django-robots-txt",
-        "git+https://github.com/atemon/django-sitemetrics.git",
+        # "git+https://github.com/atemon/django-sitemetrics.git",
     ],
     long_description=read_file('README.rst'),
     test_suite="runtests.runtests",
